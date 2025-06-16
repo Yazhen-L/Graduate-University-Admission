@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+Pillow
+plotly
+requests
+st-aggrid
+streamlit-option-menu
+streamlit-extras
+streamlit-shadcn-ui
