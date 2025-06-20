@@ -6,7 +6,7 @@ from streamlit_extras.let_it_rain import rain
 import codecs
 import streamlit.components.v1 as components
 import streamlit_shadcn_ui as ui
-from ydata_profiling import ProfileReport
+from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 
 import pandas as pd
