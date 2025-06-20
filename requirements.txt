@@ -10,4 +10,3 @@ requests
 st-aggrid
 streamlit-option-menu
 streamlit-extras
-streamlit-shadcn-ui
