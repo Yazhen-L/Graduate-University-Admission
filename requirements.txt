@@ -12,4 +12,4 @@ plotly
 Pillow
 statsmodels
 requests
-pandas-profiling==0.1.0
+pandas-profiling==3.6.6
