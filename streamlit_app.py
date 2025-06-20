@@ -6,11 +6,8 @@ from streamlit_extras.let_it_rain import rain
 import codecs
 import streamlit.components.v1 as components
 import streamlit_shadcn_ui as ui
+from ydata_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
-try:
-    from pandas_profiling import ProfileReport
-except ImportError:
-    from pandas_profiling.__init__ import ProfileReport
 
 import pandas as pd
 from st_aggrid import AgGrid, GridOptionsBuilder
