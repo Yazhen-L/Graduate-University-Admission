@@ -12,3 +12,5 @@ plotly
 Pillow
 statsmodels
 requests
+ydata-profiling
+streamlit-pandas-profiling
