@@ -6,6 +6,8 @@ from streamlit_extras.let_it_rain import rain
 import codecs
 import streamlit.components.v1 as components
 import streamlit_shadcn_ui as ui
+from ydata_profiling import ProfileReport
+from streamlit_pandas_profiling import st_profile_report
 
 import pandas as pd
 from st_aggrid import AgGrid, GridOptionsBuilder
@@ -319,7 +321,20 @@ if page == "Introduction 👩‍💼":
             else:
                 st.info("Please select exactly two variables.")
 
+            st.write("### Automated Report")
+            if st.button("Generate an Automated Report:"):
+                st.balloons()
+                profile = ProfileReport(df, title="University Graduate Admission Report", explorative=True, minimal=True)
+                st_profile_report(profile)
+                export = profile.to_html()
+                st.download_button(
+                    label="📥 Download full Report",
+                    data=export,
+                    file_name="university_graduate_admission_report.html",
+                    mime='text/html',
+                )
 
+    
 
 # Display the selected page content based on the user's choice":
 elif page == "Visualization 📊":
