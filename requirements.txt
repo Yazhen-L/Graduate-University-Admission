@@ -1,8 +1,4 @@
 streamlit
-streamlit-option-menu
-streamlit-extras
-streamlit-aggrid
-streamlit-shadcn-ui
 pandas
 numpy
 matplotlib
