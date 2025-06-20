@@ -22,10 +22,6 @@ import math
 from io import StringIO
 import requests
 
-
-from ydata_profiling import ProfileReport
-from streamlit_pandas_profiling import st_profile_report
-
 # Load the dataset
 df = pd.read_csv("Admission_Predict_Ver1.1.csv")
 
@@ -254,18 +250,18 @@ if page == "Introduction 👩‍💼":
             else:
                 st.dataframe(df.tail(10))
             
-            st.write("### Automated Report")
-            if st.button("Generate an Automated Report:"):
-                st.balloons()
-                profile = ProfileReport(df, title="University Graduate Admission Report", explorative=True, minimal=True)
-                st_profile_report(profile)
-                export = profile.to_html()
-                st.download_button(
-                    label="📥 Download full Report",
-                    data=export,
-                    file_name="university_graduate_admission_report.html",
-                    mime='text/html',
-                )
+            #st.write("### Automated Report")
+            #if st.button("Generate an Automated Report:"):
+                #st.balloons()
+                #profile = ProfileReport(df, title="University Graduate Admission Report", explorative=True, minimal=True)
+                #st_profile_report(profile)
+                #export = profile.to_html()
+                #st.download_button(
+                    #label="📥 Download full Report",
+                    #data=export,
+                    #file_name="university_graduate_admission_report.html",
+                    #mime='text/html',
+                #)
 
         # Display the selected page content based on the user's choice
         elif selected == "Exploration":
