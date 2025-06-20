@@ -26,7 +26,6 @@ import requests
 from ydata_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 
-
 # Load the dataset
 df = pd.read_csv("Admission_Predict_Ver1.1.csv")
 
