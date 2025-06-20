@@ -12,6 +12,3 @@ plotly
 Pillow
 statsmodels
 requests
-ydata-profiling
-streamlit-pandas-profiling
-GitPython==3.1.41
