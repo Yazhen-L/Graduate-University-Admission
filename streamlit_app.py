@@ -5,7 +5,6 @@ from streamlit_extras.dataframe_explorer import dataframe_explorer
 from streamlit_extras.let_it_rain import rain
 import codecs
 import streamlit.components.v1 as components
-import streamlit_shadcn_ui as ui
 
 import pandas as pd
 from st_aggrid import AgGrid, GridOptionsBuilder
