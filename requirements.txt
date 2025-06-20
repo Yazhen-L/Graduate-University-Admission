@@ -4,7 +4,10 @@ numpy
 matplotlib
 seaborn
 scikit-learn
-plotly
 Pillow
-statsmodels
+plotly
 requests
+st-aggrid
+streamlit-option-menu
+streamlit-extras
+streamlit-shadcn-ui
