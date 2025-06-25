@@ -10,6 +10,6 @@ seaborn
 scikit-learn
 plotly
 Pillow
-statsmodels
+statsmodels==0.14.1
 requests
-scipy
+scipy>=1.8.0
