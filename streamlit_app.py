@@ -319,7 +319,7 @@ if page == "Introduction 👩‍💼":
             else:
                 st.info("Please select exactly two variables.")
 
-    
+
 
 # Display the selected page content based on the user's choice":
 elif page == "Visualization 📊":
@@ -421,7 +421,7 @@ elif page == "Prediction 📣":
         research = st.radio("Research Experience", options = ["No", "Yes"], index = 1)
 
         st.sidebar.write("**Your Inputs:**")
-        st.sidebar.write(f"CGPA: {CGPA:.2f}")
+        st.sidebar.write(f"CGPA: {CGPA}")
         st.sidebar.write(f"GRE: {gre}")
         st.sidebar.write(f"TOEFL: {toefl}")
         st.sidebar.write(f"University Rating: {univ_rating}")
