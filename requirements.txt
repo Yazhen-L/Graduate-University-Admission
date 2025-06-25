@@ -10,6 +10,5 @@ seaborn
 scikit-learn
 plotly
 Pillow
-statsmodels
 requests
 
